@@ -11,6 +11,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        val cal1 = Buttons(this)
+        cal1.press()
+        cal1.pressequal()
     }
-
 }
